@@ -5,7 +5,7 @@ app = Flask(__name__, static_folder='my-app/build', static_url_path='')
 cors = CORS(app)
 
 @app.route("/api", methods=['GET'])
-@cross_origin
+@cross_origin()
 def index():
     return {
         "name": "sarpong"
