@@ -6,7 +6,7 @@ function App() {
   const [applicationState, setApplicationState] = useState(0)
 
   useEffect(() => {
-    const url = 'https://jsonplaceholder.typicode.com/todos/1'
+    const url = 'api/'
     fetch(url).then(response => {
       if(response.status == 200){
         return response.json()
