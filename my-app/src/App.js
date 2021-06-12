@@ -6,7 +6,7 @@ function App() {
   const [applicationState, setApplicationState] = useState(0)
 
   useEffect(() => {
-    const url = 'https://protected-citadel-82010.herokuapp.com/api'
+    const url = '/api'
     fetch(url).then(response => {
       if(response.status == 200){
         return response.json()
