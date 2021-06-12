@@ -7,6 +7,6 @@ Deploying this on a cloud platform.
 
 - `pip install flask flask-cors gunicorn`
 
-## Hosted App Link
+## Hosted App Link
 
 - [Live](https://protected-citadel-82010.herokuapp.com/)
