@@ -8,7 +8,12 @@ cors = CORS(app)
 @cross_origin()
 def index():
     return {
-        "name": "sarpong"
+        "name": "Nana Sarpong Kumakuma",
+        "country": "Me fri Ghana",
+        "occupation": "Software Engineer",
+        "currentCompany": "47degs",
+        "previousCompany": ["Deloitte 🚀", "Makers 🤙🏿", "47degs ❤️"],
+        "Youtube": "https://www.youtube.com/channel/UCIvL4BDxk3MrKjTF1avFmQQ/videos"
     }
 
 @app.route('/')
